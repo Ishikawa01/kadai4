@@ -1,5 +1,5 @@
 language: bash
 script:
   - echo "Check Service"
-  - bash -e ./sosuu.sh
+  - bash -e ./sosuu-test.sh
 
