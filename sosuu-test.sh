@@ -51,16 +51,16 @@ diff /tmp/ans-$$ /tmp/result-$$ && exit 0
 
 ./sossu.sh 4 > /tmp/result-$$
 
-echo"4について判定します。" > /tmp/ans-$$
-echo"4は素数ではありません。" >> /tmp/ans-$$
+echo "4について判定します。" > /tmp/ans-$$
+echo "4は素数ではありません。" >> /tmp/ans-$$
 
 diff /tmp/ans-$$ /tmp/result-$$ && exit 0
 
 
 ./sossu.sh 996 > /tmp/result-$$
 
-echo"996について判定します。" > /tmp/ans-$$
-echo"996は素数ではありません。" >> /tmp/ans-$$
+echo "996について判定します。" > /tmp/ans-$$
+echo "996は素数ではありません。" >> /tmp/ans-$$
 
 diff /tmp/ans-$$ /tmp/result-$$ && exit 0
 
