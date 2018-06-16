@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "素数かどうか判定します。判定したい数字を入力して下さい。"
-read number
+number=$1
 a=0
 
 echo $number"について判定します。"
