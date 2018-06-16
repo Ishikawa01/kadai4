@@ -1,4 +1,4 @@
 language: bash
 script:
-  - bash -e ./sosuu-test.sh 2
+  - bash -e ./sosuu-test.sh 
 
