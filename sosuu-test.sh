@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+bash ./sosuu.sh
 ./sosuu.sh > /tmp/result-$$
 
 echo "2は素数です。" > /tmp/ans-$$
