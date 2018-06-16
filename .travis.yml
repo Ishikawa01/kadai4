@@ -1,5 +1,5 @@
 language: bash
 script:
   - bash -e ./sosuu-test.sh
-  - echo "2"
+  - number=2
 
