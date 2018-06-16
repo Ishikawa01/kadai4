@@ -1,9 +1,11 @@
 #!/bin/sh
 
-result=$(./sosuu.sh 1)
-if [ $result = "1�素です���" ];then
-	echo "OK"
-else
-	echo"NG"
-fi
+
+./sosuu.sh > /tmp/result-$$
+
+echo "2は素数です。" > /tmp/ans-$$
+
+diff /tmp/ans-$$ /tmp/result-$$ && echo "OK" exit 0
+
+rm -f /tmp/$$-*
 
