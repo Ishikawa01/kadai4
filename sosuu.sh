@@ -5,7 +5,7 @@ number=$1
 a=0
 
 echo $number"について判定します。"
-if [ $number -gt 2 ]
+if [ $number > 2 ]
 then 
 
 i=$(($number-1))
@@ -15,7 +15,7 @@ for a in ` seq 2 $i `
 do
 
 c=$(($number%$a))
-if [ $c -ne 0 ]
+if [ $c != 0 ]
 then
 b=1
 
@@ -26,14 +26,17 @@ break
 fi
 
 done
-if [ $b -ne 0 ]
+
+if [ $b != 0 ]
 then
 echo $number"は素数です。"
+
 else
 echo $number"は素数ではありません。"
 fi
 
-elif [ $number -ne 2 ]
+
+elif [ $number != 2 ]
 then
 echo $number"は素数ではありません。"
 
