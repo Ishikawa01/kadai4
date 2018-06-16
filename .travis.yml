@@ -1,6 +1,6 @@
 language: bash
 script:
-  - bash ./sosuu.sh
+  - bash ./sosuu.sh 2
   - $number = "2"
   - bash -e ./sosuu-test.sh
 
